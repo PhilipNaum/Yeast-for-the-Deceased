@@ -1,0 +1,1 @@
+alarm_set(0, random_range(room_speed*2, room_speed*5))

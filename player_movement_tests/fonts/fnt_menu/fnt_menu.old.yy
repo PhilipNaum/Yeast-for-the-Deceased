@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"MenuText",
+  "%Name":"fnt_menu",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":15,
@@ -567,7 +567,7 @@
   "last":0,
   "lineHeight":19,
   "maintainGms1Font":false,
-  "name":"MenuText",
+  "name":"fnt_menu",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -584,10 +584,7 @@
   "sdfSpread":8,
   "size":12.0,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }

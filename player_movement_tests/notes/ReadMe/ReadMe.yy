@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"ReadMe",
+  "name":"ReadMe",
+  "parent":{
+    "name":"player_movement_tests",
+    "path":"player_movement_tests.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

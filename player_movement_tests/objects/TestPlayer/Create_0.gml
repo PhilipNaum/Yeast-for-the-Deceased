@@ -1,8 +1,8 @@
 move_speed = 0;
 acceleration = .5;
 deceleration = .2;
-max_speed = 5
-wallDeceleration = 1;
+max_speed = 4
+wallDeceleration = -.4;
 appliedForce = [0,0];
 
 appliedX=0;
@@ -16,3 +16,8 @@ max_accel = 2;
 jerk = .05;
 
 velMagnitude=0;
+
+function applyForce(){
+	
+	
+}

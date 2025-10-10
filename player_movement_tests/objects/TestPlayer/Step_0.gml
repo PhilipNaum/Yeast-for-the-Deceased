@@ -61,8 +61,8 @@ if(attached && anchored_obj != noone){
 		velocityY*=max_speed;
 	}
 	
-	//change position
-	x+=velocityX;
-	y+=velocityY;
 }
+
+x+=velocityX;
+y+=velocityY;
 

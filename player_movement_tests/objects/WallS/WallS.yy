@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"DecelWall",
+  "%Name":"WallS",
   "eventList":[],
   "managed":true,
-  "name":"DecelWall",
+  "name":"WallS",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite23",
-    "path":"sprites/Sprite23/Sprite23.yy",
+    "name":"SouthWall",
+    "path":"sprites/SouthWall/SouthWall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,2 +1,1 @@
-move_speed=0;
-acceleration=0;
+//move_speed = max(0,move_speed-wallDeceleration);

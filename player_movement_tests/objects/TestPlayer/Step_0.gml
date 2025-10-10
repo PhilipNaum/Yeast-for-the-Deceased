@@ -5,14 +5,11 @@ if(attached){
 		move_speed = min(move_speed+acceleration,max_speed);
 		x += lengthdir_x(move_speed,dir);
 		y += lengthdir_y(move_speed, dir)
-		
-		show_debug_message("dist " + string(point_distance(x,y,goToX,goToY)));
 	}
 	
 	else{
 		//start slowing down
 		move_speed = max(0,move_speed-deceleration);
-		show_debug_message("speed: "+string(move_speed))
 		// if really slow, snap to point
 		if(move_speed<=.1){
 			move_speed=0;

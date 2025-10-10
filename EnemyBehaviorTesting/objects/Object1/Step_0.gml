@@ -1,8 +1,13 @@
-if (!Rolling)
+x += VelocityX
+
+if (x > window_get_width() || x < 0)
 {
-	x += VelocityX
-	if (x > window_get_width() || x < 0)
-	{
-		VelocityX = -VelocityX
-	}
+	VelocityX = -VelocityX
+}
+
+if (Rolling)
+{
+	y -= VelocityY
+	
+	VelocityY -= Gravity
 }

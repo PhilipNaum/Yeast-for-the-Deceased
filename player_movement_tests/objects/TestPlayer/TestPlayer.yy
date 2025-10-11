@@ -41,6 +41,7 @@
     {"$GMObjectProperty":"v1","%Name":"attached","filters":[],"listItems":[],"multiselect":false,"name":"attached","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"anchored_obj","filters":[],"listItems":[],"multiselect":false,"name":"anchored_obj","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"parry","filters":[],"listItems":[],"multiselect":false,"name":"parry","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"successful_parry","filters":[],"listItems":[],"multiselect":false,"name":"successful_parry","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

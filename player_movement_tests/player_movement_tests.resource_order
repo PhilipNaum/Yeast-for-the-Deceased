@@ -47,6 +47,7 @@
     {"name":"spr_player_walk_left","order":15,"path":"sprites/spr_player_walk_left/spr_player_walk_left.yy",},
     {"name":"spr_player_walk_right","order":12,"path":"sprites/spr_player_walk_right/spr_player_walk_right.yy",},
     {"name":"spr_player_walk_up","order":4,"path":"sprites/spr_player_walk_up/spr_player_walk_up.yy",},
+    {"name":"spr_scythe_cursor","order":26,"path":"sprites/spr_scythe_cursor/spr_scythe_cursor.yy",},
     {"name":"spr_shadow","order":3,"path":"sprites/spr_shadow/spr_shadow.yy",},
     {"name":"spr_talk","order":9,"path":"sprites/spr_talk/spr_talk.yy",},
     {"name":"spr_tileset","order":11,"path":"sprites/spr_tileset/spr_tileset.yy",},

@@ -18,3 +18,4 @@ jerk = .05;
 velMagnitude=0;
 
 parryTimer = .5;
+parryFailTimer = 1;

@@ -73,6 +73,15 @@ if(parry){
 }
 if(parryTimer<=0){
 	parry=false;
+	if(!successful_parry)
+	{
+		parryFailTimer-=delta_time/1000000;
+		if(parryFailTimer<=0){
+			successful_parry = true;
+		}
+	}
+	else{
 	parryTimer=.5;
+	}
 	sprite_index = grim_reaper;
 }

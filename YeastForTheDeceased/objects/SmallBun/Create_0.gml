@@ -6,6 +6,9 @@ velocityY = 0;
 gravityVal = .2;
 deltaOffset = 1000000;
 
+width = 150;
+height = 150;
+
 reverseTimer = irandom_range(1, 5)
 
 // Attack Behavior
@@ -29,6 +32,6 @@ tarPlatform = 0;
 
 // Setting Size
 
-image_xscale = 150 / sprite_width;
-image_yscale = 150 / sprite_height;
+image_xscale = width / sprite_width;
+image_yscale = height / sprite_height;
 

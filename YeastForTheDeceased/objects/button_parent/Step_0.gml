@@ -1,6 +1,6 @@
 
 
-if(place_empty(x,y,TestPlayer)){
+if(place_meeting(x,y,TestPlayer)){
 	selected = true;
 }
 else{

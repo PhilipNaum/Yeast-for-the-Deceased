@@ -84,6 +84,10 @@ else if (!rolling)
 	{
 		rolling = true;
 		
+		sprite_index = spr_rolling_bun;
+		image_xscale = width / sprite_get_width(spr_rolling_bun);
+		image_yscale = height / sprite_get_height(spr_rolling_bun);
+		
 		tarPlatform = irandom_range(1, 3);
 		
 		jumpBehavior = tarPlatform - curPlatform;

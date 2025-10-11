@@ -27,12 +27,13 @@ y += velocityY*(delta_time/deltaOffset*10);
 
 //Keeping in Bounds
 
-if (x + sprite_width > room_width)
+if (x + sprite_width > room_width && velocityX > 0)
 {
 	velocityX = -velocityX;
+	show_debug_message(string(x+sprite_width) + " - " + string(room_width));
 }
 
-if (x < 0)
+if (x < 0 && velocityX < 0)
 {
 	velocityX = -velocityX;
 }

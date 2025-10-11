@@ -30,6 +30,7 @@
     {"name":"Path2","order":1,"path":"paths/Path2/Path2.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"EastWall","order":19,"path":"sprites/EastWall/EastWall.yy",},
+    {"name":"grim_reaper","order":24,"path":"sprites/grim_reaper/grim_reaper.yy",},
     {"name":"NorthWall","order":21,"path":"sprites/NorthWall/NorthWall.yy",},
     {"name":"SouthWall","order":22,"path":"sprites/SouthWall/SouthWall.yy",},
     {"name":"spr_box","order":14,"path":"sprites/spr_box/spr_box.yy",},

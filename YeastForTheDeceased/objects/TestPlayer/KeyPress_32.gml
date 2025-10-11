@@ -1,2 +1,5 @@
-parry=true;
+if (parryTimer > 0)
+{
+	parry=true;
+}
 

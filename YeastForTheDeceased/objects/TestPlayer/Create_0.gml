@@ -16,5 +16,9 @@ jerk = .05;
 
 velMagnitude=0;
 
+// Parry Logic
+
 parryTimer = .5;
-parryFailTimer = 1;
+
+failWait = 2
+parryFailTimer = failWait;

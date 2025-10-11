@@ -47,7 +47,8 @@ y+=velocityY;
 //Parry logic
 
 //if in parry state, decrease parry timer
-if(parry){
+if(parry)
+{
 	parryTimer -= (delta_time/1000000);
 }
 
@@ -62,13 +63,16 @@ if(parryTimer<=0){
 	{
 		parryFailTimer-=delta_time/1000000;
 		//if fail timre is up, then reset
-		if(parryFailTimer<=0){
+		if(parryFailTimer<=0)
+		{
 			successful_parry = true;
-			parryFailTimer = 1;
+			parryFailTimer = failWait;
 		}
 	}
-	else{
-	parryTimer=.5;
+	else
+	{
+		parryTimer=.5;
+		successful_parry = false;
 	}
 }
 

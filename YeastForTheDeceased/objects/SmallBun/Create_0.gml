@@ -31,3 +31,4 @@ tarPlatform = 0;
 
 image_xscale = 150 / sprite_width;
 image_yscale = 150 / sprite_height;
+

@@ -1,4 +1,4 @@
-attackWait = 2;
+attackWait = 3;
 attackTimer = attackWait;
 
 deltaOffset = 1000000;

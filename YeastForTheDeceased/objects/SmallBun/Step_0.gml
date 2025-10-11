@@ -7,13 +7,13 @@ if (!locationSet)
 	switch (curPlatform)
 	{
 		case 1:
-			y = BottomPlatform.y - self.sprite_height;
+			y = BottomPlatform.y - self.sprite_height/2;
 			break;
 		case 2:
-			y = MiddlePlatform.y - self.sprite_height;
+			y = MiddlePlatform.y - self.sprite_height/2;
 			break;
 		case 3:
-			y = TopPlatform.y - self.sprite_height;
+			y = TopPlatform.y - self.sprite_height/2;
 			break;
 	}
 	
@@ -27,12 +27,12 @@ y += velocityY*(delta_time/deltaOffset*10);
 
 //Keeping in Bounds
 
-if (x + sprite_width > room_width)
+if (x + sprite_width/2 > room_width && velocityX>0)
 {
 	velocityX = -velocityX;
 }
 
-if (x < 0)
+if (x - sprite_width/2 < 0 && velocityX <0)
 {
 	velocityX = -velocityX;
 }

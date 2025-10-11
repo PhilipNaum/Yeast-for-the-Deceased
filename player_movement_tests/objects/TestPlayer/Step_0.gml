@@ -78,6 +78,7 @@ if(parryTimer<=0){
 		parryFailTimer-=delta_time/1000000;
 		if(parryFailTimer<=0){
 			successful_parry = true;
+			parryFailTimer = 1;
 		}
 	}
 	else{

@@ -4,7 +4,7 @@ if (attackTimer > 0)
 }
 else
 {
-	var attack = instance_create_layer(x + sprite_width/2, y + sprite_height/2, "Instances", RadiusAttack);
+	var attack = instance_create_layer(x,y, "Instances", RadiusAttack);
 	attackTimer = attackWait;
 }
 

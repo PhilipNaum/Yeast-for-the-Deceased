@@ -1,8 +1,8 @@
 acceleration = .5;
 deceleration = .2;
-max_speed = 4
+max_speed = 10
 
-wallDeceleration = -.3;
+wallDeceleration = -1;
 
 appliedX=0;
 appliedY=0;

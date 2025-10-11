@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite5",
-    "path":"sprites/Sprite5/Sprite5.yy",
+    "name":"bunGuy",
+    "path":"sprites/bunGuy/bunGuy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

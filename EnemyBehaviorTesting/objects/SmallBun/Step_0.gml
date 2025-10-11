@@ -1,5 +1,27 @@
 randomise();
 
+// Setting initial position
+// Not in create because creating instance forces you to pick a position and after create
+if (!locationSet)
+{
+	switch (curPlatform)
+	{
+		case 1:
+			y = BottomPlatform.y - self.sprite_height;
+			break;
+		case 2:
+			y = MiddlePlatform.y - self.sprite_height;
+			break;
+		case 3:
+			y = TopPlatform.y - self.sprite_height;
+			break;
+	}
+	
+	locationSet = true
+}
+
+// Updating position
+
 x += velocityX*(delta_time/deltaOffset*10);
 y += velocityY*(delta_time/deltaOffset*10);
 
@@ -28,12 +50,30 @@ if (!jumping)
 	
 	// Reversing Direction
 	
-	reverseTimer -= (delta_time/deltaOffset)
+	reverseTimer -= (delta_time/deltaOffset);
 	
 	if (reverseTimer < 0)
 	{
 		velocityX = -velocityX;
-		reverseTimer = irandom_range(1, 5)
+		reverseTimer = irandom_range(1, 5);
+	}
+	
+	// Rising
+	
+	if (EnemyManager.bigBunNum < 2)
+	{
+		riseTimer -= (delta_time/deltaOffset);
+				
+		if (riseTimer < 0)
+		{
+			var newBigBun = instance_create_layer(x, y, "Instances", BigBun);
+			EnemyManager.bigBunNum += 1;
+			instance_destroy();
+		}
+	}
+	else 
+	{
+		riseTimer = irandom_range(5, 10);
 	}
 }
 else if (!rolling)

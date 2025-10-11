@@ -8,28 +8,26 @@ deltaOffset = 1000000;
 
 reverseTimer = irandom_range(1, 5)
 
+// Attack Behavior
+
 jumpTimer = irandom_range(1, 5);
 jumping = false;
 
 rollWait = 0.5;
 rollTimer = rollWait;
 
+// Bread Rising
+
+riseTimer = irandom_range(5, 10);
+
 // Setting Initial Platform
 
 curPlatform = irandom_range(1, 3);
-
-
-switch (curPlatform)
-{
-	case 1:
-		y = BottomPlatform.y - self.sprite_height;
-		break;
-	case 2:
-		y = MiddlePlatform.y - self.sprite_height;
-		break;
-	case 3:
-		y = TopPlatform.y - self.sprite_height;
-		break;
-}
+locationSet = false;
 
 tarPlatform = 0;
+
+// Setting Size
+
+image_xscale = 150 / sprite_width;
+image_yscale = 150 / sprite_height;

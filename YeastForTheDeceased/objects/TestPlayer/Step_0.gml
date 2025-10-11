@@ -5,11 +5,11 @@ if(attached && anchored_obj != noone){
 	goToY = anchored_obj.y;
 	
 	//for main menu
-	/*
-	if(object_is_ancestor(anchored_obj,button_parent)){
+	
+	if(object_is_ancestor(anchored_obj.object_index,button_parent)){
 		goToX = anchored_obj.x - anchored_obj.sprite_width/2;
 	}
-	*/
+	
  
 	//create vector to go to enemy
 	appliedX = goToX - x;

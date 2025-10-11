@@ -1,2 +1,1 @@
-
-velocityX += wallDeceleration;
+velocityX+=wallDeceleration;

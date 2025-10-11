@@ -66,3 +66,13 @@ if(attached && anchored_obj != noone){
 x+=velocityX;
 y+=velocityY;
 
+if(parry){
+	show_debug_message("parrying")
+	parryTimer -= (delta_time/1000000);
+	sprite_index = spr_grparry;
+}
+if(parryTimer<=0){
+	parry=false;
+	parryTimer=.5;
+	sprite_index = grim_reaper;
+}

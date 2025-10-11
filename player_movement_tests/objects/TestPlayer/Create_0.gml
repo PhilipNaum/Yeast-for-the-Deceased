@@ -16,3 +16,5 @@ max_accel = 2;
 jerk = .05;
 
 velMagnitude=0;
+
+parryTimer = .5;

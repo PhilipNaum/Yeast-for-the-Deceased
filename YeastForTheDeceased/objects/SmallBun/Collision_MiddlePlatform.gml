@@ -13,4 +13,13 @@ if (rolling && tarPlatform == 2 && velocityY > 0)
 	sprite_index = bunGuy;
 	image_xscale = width / sprite_get_width(bunGuy);
 	image_yscale = height / sprite_get_height(bunGuy);
+	
+	if (velocityX < 0)
+	{
+		velocityX = -baseXSpeed;
+	}
+	else
+	{
+		velocityX = baseXSpeed;
+	}
 }

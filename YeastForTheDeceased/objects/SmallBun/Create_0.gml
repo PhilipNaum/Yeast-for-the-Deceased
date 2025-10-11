@@ -1,6 +1,9 @@
 randomise();
 
-velocityX = 10;
+
+baseXSpeed = 10;
+
+velocityX = baseXSpeed;
 velocityY = 0;
 
 gravityVal = .2;

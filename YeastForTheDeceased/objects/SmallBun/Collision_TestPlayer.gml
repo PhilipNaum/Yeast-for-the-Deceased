@@ -1,7 +1,34 @@
 if(TestPlayer.parry){
-	if(TestPlayer.anchored_obj == self){
-		TestPlayer.anchored_obj = noone
+	if (rolling)
+	{
+		if (velocityX > 0)
+		{
+			if (other.x < x)
+			{
+				velocityX += 2;
+			}
+			else
+			{
+				velocityX = -velocityX;
+			}
+		}
+		else
+		{
+			if (other.x > x)
+			{
+				velocityX -= 2;
+			}
+			else
+			{
+				velocityX = -velocityX;
+			}
+		}
 	}
-	instance_destroy();
-	
+	else 
+	{
+		if(TestPlayer.anchored_obj == self){
+		TestPlayer.anchored_obj = noone
+		}
+		instance_destroy();
+	}
 }

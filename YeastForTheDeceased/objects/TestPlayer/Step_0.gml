@@ -39,17 +39,29 @@ if(attached && anchored_obj != noone){
 	
 }
 
+//change position
 x+=velocityX;
 y+=velocityY;
 
+
+//Parry logic
+
+//if in parry state, decrease parry timer
 if(parry){
 	parryTimer -= (delta_time/1000000);
 }
+
+//if parry timer is up
 if(parryTimer<=0){
+	//set parry to false
 	parry=false;
+	//see if it was successful
+	
+	//if not, then turn on the fail timer
 	if(!successful_parry)
 	{
 		parryFailTimer-=delta_time/1000000;
+		//if fail timre is up, then reset
 		if(parryFailTimer<=0){
 			successful_parry = true;
 			parryFailTimer = 1;
@@ -60,6 +72,7 @@ if(parryTimer<=0){
 	}
 }
 
+//flip the image based on veloc
 if(velocityX < 0){
 	image_xscale = -1;
 }

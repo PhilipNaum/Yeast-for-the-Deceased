@@ -48,8 +48,6 @@
     {"id":{"name":"RadiusAttack","path":"objects/RadiusAttack/RadiusAttack.yy",},},
     {"id":{"name":"SmallBun","path":"objects/SmallBun/SmallBun.yy",},},
     {"id":{"name":"test","path":"objects/test/test.yy",},},
-    {"id":{"name":"TestEnemy","path":"objects/TestEnemy/TestEnemy.yy",},},
-    {"id":{"name":"TestEnemy2","path":"objects/TestEnemy2/TestEnemy2.yy",},},
     {"id":{"name":"TestPlayer","path":"objects/TestPlayer/TestPlayer.yy",},},
     {"id":{"name":"TopPlatform","path":"objects/TopPlatform/TopPlatform.yy",},},
     {"id":{"name":"WallE","path":"objects/WallE/WallE.yy",},},

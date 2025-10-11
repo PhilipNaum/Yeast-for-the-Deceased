@@ -28,8 +28,6 @@
     {"name":"Object1","order":15,"path":"objects/Object1/Object1.yy",},
     {"name":"RadiusAttack","order":16,"path":"objects/RadiusAttack/RadiusAttack.yy",},
     {"name":"SmallBun","order":17,"path":"objects/SmallBun/SmallBun.yy",},
-    {"name":"TestEnemy","order":4,"path":"objects/TestEnemy/TestEnemy.yy",},
-    {"name":"TestEnemy2","order":5,"path":"objects/TestEnemy2/TestEnemy2.yy",},
     {"name":"TestPlayer","order":6,"path":"objects/TestPlayer/TestPlayer.yy",},
     {"name":"TopPlatform","order":18,"path":"objects/TopPlatform/TopPlatform.yy",},
     {"name":"WallE","order":7,"path":"objects/WallE/WallE.yy",},

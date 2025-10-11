@@ -23,7 +23,7 @@
   ],
   "name":"Sprite26",
   "nineSlice":null,
-  "origin":3,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":160,
     "yorigin":32,
   },
   "swatchColours":null,

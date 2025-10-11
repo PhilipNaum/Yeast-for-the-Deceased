@@ -36,6 +36,7 @@
     {"name":"WallW","order":10,"path":"objects/WallW/WallW.yy",},
     {"name":"Path2","order":1,"path":"paths/Path2/Path2.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"RoomUI","order":16,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"bread","order":28,"path":"sprites/bread/bread.yy",},
     {"name":"bunGuy","order":29,"path":"sprites/bunGuy/bunGuy.yy",},
     {"name":"EastWall","order":2,"path":"sprites/EastWall/EastWall.yy",},

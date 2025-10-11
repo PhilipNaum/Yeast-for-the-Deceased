@@ -1,3 +1,1 @@
-
-
-parry=true;
+parry = true;

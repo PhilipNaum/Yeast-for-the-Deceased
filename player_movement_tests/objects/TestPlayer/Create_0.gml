@@ -17,7 +17,4 @@ jerk = .05;
 
 velMagnitude=0;
 
-function applyForce(){
-	
-	
-}
+parryTimer = .5;

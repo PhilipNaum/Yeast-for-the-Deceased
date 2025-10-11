@@ -105,6 +105,10 @@ else if (!rolling)
 		{
 			velocityY = -40;
 		}
+		
+		sprite_index = BunRoll;
+		image_xscale = 150 / sprite_get_width(BunRoll);
+		image_yscale = 150 / sprite_get_height(BunRoll);
 	}
 }
 else 

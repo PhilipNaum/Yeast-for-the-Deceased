@@ -9,4 +9,8 @@ if (rolling && tarPlatform == 1 && velocityY > 0)
 	velocityY = 0;
 	
 	curPlatform = 1;
+	
+	sprite_index = bunGuy;
+	image_xscale = 150 / sprite_get_width(bunGuy);
+	image_yscale = 150 / sprite_get_height(bunGuy);
 }

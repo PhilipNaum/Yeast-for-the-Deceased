@@ -8,3 +8,5 @@ deltaOffset = 1000000;
 size = 200;
 image_xscale = size / sprite_width;
 image_yscale = size / sprite_height;
+
+EnemyManager.enemyCount++;

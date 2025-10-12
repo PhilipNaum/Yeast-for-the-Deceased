@@ -46,7 +46,7 @@ if(attached && anchored_obj != noone){
 	}
 	
 }
-if(!attached && abs(velocityX) >= .1 && abs(velocityY) >= .1){
+if(anchored_obj == noone && abs(velocityX) >= 1 && abs(velocityY) >= 1){
 	mag = sqrt(sqr(velocityX) + sqr(velocityY));
 	frictionX = -(velocityX / mag) * deceleration
 	frictionY = -(velocityY / mag) * deceleration;

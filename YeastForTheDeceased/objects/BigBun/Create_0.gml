@@ -10,3 +10,4 @@ image_xscale = size / sprite_width;
 image_yscale = size / sprite_height;
 
 EnemyManager.enemyCount++;
+EnemyManager.bigBunNum++;

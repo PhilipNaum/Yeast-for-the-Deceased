@@ -67,7 +67,6 @@ else
 			if (riseTimer < 0)
 			{
 				var newBigBun = instance_create_layer(x, y, "Instances", BigBun);
-				EnemyManager.bigBunNum += 1;
 				instance_destroy();
 			}
 		}

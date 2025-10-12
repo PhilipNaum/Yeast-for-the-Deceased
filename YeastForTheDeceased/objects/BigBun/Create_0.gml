@@ -1,5 +1,5 @@
 attackWait = 3;
-attackTimer = attackWait;
+attackTimer = 1;
 
 deltaOffset = 1000000;
 

@@ -94,19 +94,19 @@ else if (!rolling)
 		
 		if (jumpBehavior < 0)
 		{
-			velocityY = -5;
+			velocityY = jumpPower;
 		}
 		if (jumpBehavior == 0)
 		{
-			velocityY = -15;
+			velocityY = jumpPower*3;
 		}
 		if (jumpBehavior == 1)
 		{
-			velocityY = -20;
+			velocityY = jumpPower*5;
 		}
 		if (jumpBehavior == 2)
 		{
-			velocityY = -40;
+			velocityY = jumpPower*7;
 		}
 	}
 }

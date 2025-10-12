@@ -1,4 +1,4 @@
-if(TestPlayer.parry){
+if(TestPlayer.parry && !spawning){
 	if (rolling)
 	{
 		if (velocityX > 0)

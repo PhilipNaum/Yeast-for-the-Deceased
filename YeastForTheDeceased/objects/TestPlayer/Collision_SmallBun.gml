@@ -20,8 +20,8 @@ else if (other.rolling)
 	pushBackY /= pushBackNorm;
 
 	//mulitply by intensity
-	pushBackX *= 2;
-	pushBackY *= 2;
+	pushBackX *= 4;
+	pushBackY *= 4;
 
 	//add to player velocity
 	velocityX -= pushBackX;

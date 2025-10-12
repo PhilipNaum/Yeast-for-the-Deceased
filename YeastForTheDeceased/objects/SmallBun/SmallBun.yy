@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bunGuy",
-    "path":"sprites/bunGuy/bunGuy.yy",
+    "name":"spr_bun_walking",
+    "path":"sprites/spr_bun_walking/spr_bun_walking.yy",
   },
   "spriteMaskId":null,
   "visible":true,

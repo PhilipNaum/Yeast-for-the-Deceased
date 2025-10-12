@@ -36,8 +36,8 @@
   },
   "name":"YeastForTheDeceased",
   "resources":[
-    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
+    {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
     {"id":{"name":"BigBun","path":"objects/BigBun/BigBun.yy",},},
     {"id":{"name":"BottomPlatform","path":"objects/BottomPlatform/BottomPlatform.yy",},},
     {"id":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},},
@@ -68,6 +68,7 @@
     {"id":{"name":"SouthWall","path":"sprites/SouthWall/SouthWall.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
+    {"id":{"name":"spr_bun_walking","path":"sprites/spr_bun_walking/spr_bun_walking.yy",},},
     {"id":{"name":"spr_button_border","path":"sprites/spr_button_border/spr_button_border.yy",},},
     {"id":{"name":"spr_button_heavy","path":"sprites/spr_button_heavy/spr_button_heavy.yy",},},
     {"id":{"name":"spr_button_light","path":"sprites/spr_button_light/spr_button_light.yy",},},

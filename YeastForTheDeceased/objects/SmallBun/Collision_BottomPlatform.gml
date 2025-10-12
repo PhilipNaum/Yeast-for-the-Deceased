@@ -10,9 +10,9 @@ if (rolling && tarPlatform == 1 && velocityY > 0)
 	
 	curPlatform = 1;
 	
-	sprite_index = bunGuy;
-	image_xscale = width / sprite_get_width(bunGuy);
-	image_yscale = height / sprite_get_height(bunGuy);
+	sprite_index = spr_bun_walking;
+	image_xscale = width / sprite_get_width(spr_bun_walking);
+	image_yscale = height / sprite_get_height(spr_bun_walking);
 	
 	if (velocityX < 0)
 	{

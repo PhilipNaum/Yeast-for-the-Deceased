@@ -1,8 +1,8 @@
 anchored_obj = noone;
 
-acceleration = .5;
-deceleration = .2;
-max_speed = 10
+acceleration = .3;
+deceleration = .1;
+max_speed = 7
 
 wallDeceleration = -1;
 

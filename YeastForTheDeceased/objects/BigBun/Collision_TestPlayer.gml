@@ -3,5 +3,6 @@ if(TestPlayer.parry){
 		TestPlayer.anchored_obj = noone
 	}
 	instance_destroy();
+	EnemyManager.enemyCount--;
 	
 }

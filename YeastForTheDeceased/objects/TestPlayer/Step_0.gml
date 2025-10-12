@@ -46,6 +46,11 @@ if(attached && anchored_obj != noone){
 	}
 	
 }
+//if(!attached && abs(velocityX) <= .5 && abs(velocityY) <= .5){
+//	if(velocityX
+//	velocityX -= deceleration;
+//	velocityY -= deceleration
+//}
 
 //change position
 x+=velocityX;

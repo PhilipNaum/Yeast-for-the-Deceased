@@ -58,6 +58,7 @@
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"bread","path":"sprites/bread/bread.yy",},},
@@ -65,6 +66,7 @@
     {"id":{"name":"EastWall","path":"sprites/EastWall/EastWall.yy",},},
     {"id":{"name":"grim_reaper","path":"sprites/grim_reaper/grim_reaper.yy",},},
     {"id":{"name":"NorthWall","path":"sprites/NorthWall/NorthWall.yy",},},
+    {"id":{"name":"sadSponge","path":"sprites/sadSponge/sadSponge.yy",},},
     {"id":{"name":"SouthWall","path":"sprites/SouthWall/SouthWall.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
@@ -106,6 +108,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

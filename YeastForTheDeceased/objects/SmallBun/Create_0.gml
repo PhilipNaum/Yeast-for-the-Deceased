@@ -70,3 +70,5 @@ spawnSpeedX = spawnDistance / spawnTime;
 spawnGravity = 50;
 
 spawnSpeedY = ((spawnY - y) - 0.5 * spawnGravity * sqr(spawnTime)) / spawnTime;
+
+EnemyManager.enemyCount++;

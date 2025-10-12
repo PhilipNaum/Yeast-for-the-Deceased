@@ -10,12 +10,14 @@ if (spawning)
 		x += spawnSpeedX * delta_time/deltaOffset;
 		
 		spawnTimer += delta_time/deltaOffset;
+		
 	}
 	else
 	{
 		spawning = false;
 	}
 }
+
 else
 {
 	// Updating position

@@ -1,5 +1,7 @@
 randomise();
 
+levelTimer = 60;
+
 bigBunNum = 0;
 
 for (var i = 0; i < 3; i++)

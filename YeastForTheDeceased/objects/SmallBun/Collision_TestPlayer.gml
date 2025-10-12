@@ -30,5 +30,6 @@ if(TestPlayer.parry && !spawning){
 		TestPlayer.anchored_obj = noone
 		}
 		instance_destroy();
+		EnemyManager.enemyCount--;
 	}
 }

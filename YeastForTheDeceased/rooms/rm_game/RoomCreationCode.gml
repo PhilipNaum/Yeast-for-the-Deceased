@@ -1,4 +1,4 @@
-var uiLayerId = layer_get_id("UILayer_1");
-if(layer_get_visible(uiLayerId)){
-	layer_set_visible(uiLayerId,false)
-}
+var uiLayerId1 = layer_get_id("UILayer_1");
+var uiLayerId2 = layer_get_id("UILayer_2");
+layer_set_visible(uiLayerId1,false)
+layer_set_visible(uiLayerId2,false);

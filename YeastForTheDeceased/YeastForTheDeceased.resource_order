@@ -56,6 +56,7 @@
     {"name":"spr_gr_parry","order":39,"path":"sprites/spr_gr_parry/spr_gr_parry.yy",},
     {"name":"spr_gr","order":35,"path":"sprites/spr_gr/spr_gr.yy",},
     {"name":"spr_grparry","order":9,"path":"sprites/spr_grparry/spr_grparry.yy",},
+    {"name":"spr_outline","order":41,"path":"sprites/spr_outline/spr_outline.yy",},
     {"name":"spr_rolling_bun","order":36,"path":"sprites/spr_rolling_bun/spr_rolling_bun.yy",},
     {"name":"spr_scythe_cursor","order":20,"path":"sprites/spr_scythe_cursor/spr_scythe_cursor.yy",},
     {"name":"spr_shadow","order":21,"path":"sprites/spr_shadow/spr_shadow.yy",},

@@ -79,6 +79,7 @@
     {"id":{"name":"spr_gr_parry","path":"sprites/spr_gr_parry/spr_gr_parry.yy",},},
     {"id":{"name":"spr_gr","path":"sprites/spr_gr/spr_gr.yy",},},
     {"id":{"name":"spr_grparry","path":"sprites/spr_grparry/spr_grparry.yy",},},
+    {"id":{"name":"spr_outline","path":"sprites/spr_outline/spr_outline.yy",},},
     {"id":{"name":"spr_rolling_bun","path":"sprites/spr_rolling_bun/spr_rolling_bun.yy",},},
     {"id":{"name":"spr_scythe_cursor","path":"sprites/spr_scythe_cursor/spr_scythe_cursor.yy",},},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},},

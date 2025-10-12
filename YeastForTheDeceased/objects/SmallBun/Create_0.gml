@@ -1,16 +1,20 @@
 randomise();
 
 
-baseXSpeed = 10;
+baseXSpeed = 15;
 
 velocityX = baseXSpeed;
 velocityY = 0;
 
-gravityVal = .2;
+gravityVal = .4;
+
+jumpPower = -8;
+
 deltaOffset = 1000000;
 
-width = 150;
-height = 150;
+size = 100;
+width = size;
+height = size;
 
 reverseTimer = irandom_range(1, 5)
 

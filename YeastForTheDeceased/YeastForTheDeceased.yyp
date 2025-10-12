@@ -77,6 +77,8 @@
     {"id":{"name":"spr_button_run","path":"sprites/spr_button_run/spr_button_run.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
+    {"id":{"name":"spr_gr_parry_fail","path":"sprites/spr_gr_parry_fail/spr_gr_parry_fail.yy",},},
+    {"id":{"name":"spr_gr_parry","path":"sprites/spr_gr_parry/spr_gr_parry.yy",},},
     {"id":{"name":"spr_gr","path":"sprites/spr_gr/spr_gr.yy",},},
     {"id":{"name":"spr_grparry","path":"sprites/spr_grparry/spr_grparry.yy",},},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},},

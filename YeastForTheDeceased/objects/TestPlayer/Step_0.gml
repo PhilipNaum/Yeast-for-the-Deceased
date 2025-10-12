@@ -66,6 +66,7 @@ y+=velocityY;
 if(parry)
 {
 	parryTimer -= (delta_time/1000000);
+	sprite_index = spr_gr_parry;
 }
 
 //if parry timer is up
@@ -77,6 +78,7 @@ if(parryTimer<=0){
 	//if not, then turn on the fail timer
 	if(!successful_parry)
 	{
+		sprite_index = spr_gr_parry_fail;
 		parryFailTimer-=delta_time/1000000;
 		//if fail timre is up, then reset
 		if(parryFailTimer<=0)
@@ -88,6 +90,7 @@ if(parryTimer<=0){
 	else
 	{
 		parryTimer=.5;
+		sprite_index = spr_gr
 		successful_parry = false;
 	}
 }

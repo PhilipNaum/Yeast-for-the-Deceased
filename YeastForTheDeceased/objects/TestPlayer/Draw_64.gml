@@ -1,1 +1,1 @@
-draw_text(100,100, parryTimer)
+//draw_text(100,100, parryTimer)

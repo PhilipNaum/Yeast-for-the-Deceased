@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite26",
-    "path":"sprites/Sprite26/Sprite26.yy",
+    "name":"spr_button_border",
+    "path":"sprites/spr_button_border/spr_button_border.yy",
   },
   "spriteMaskId":null,
   "visible":true,

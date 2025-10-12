@@ -18,6 +18,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_title","order":1,"path":"fonts/fnt_title/fnt_title.yy",},
     {"name":"BigBun","order":11,"path":"objects/BigBun/BigBun.yy",},
     {"name":"BottomPlatform","order":12,"path":"objects/BottomPlatform/BottomPlatform.yy",},
     {"name":"button_parent","order":1,"path":"objects/button_parent/button_parent.yy",},
@@ -44,6 +45,7 @@
     {"name":"NorthWall","order":4,"path":"sprites/NorthWall/NorthWall.yy",},
     {"name":"SouthWall","order":5,"path":"sprites/SouthWall/SouthWall.yy",},
     {"name":"spr_box","order":6,"path":"sprites/spr_box/spr_box.yy",},
+    {"name":"spr_button_border","order":25,"path":"sprites/spr_button_border/spr_button_border.yy",},
     {"name":"spr_button_heavy","order":1,"path":"sprites/spr_button_heavy/spr_button_heavy.yy",},
     {"name":"spr_button_light","order":2,"path":"sprites/spr_button_light/spr_button_light.yy",},
     {"name":"spr_button_run","order":3,"path":"sprites/spr_button_run/spr_button_run.yy",},
@@ -69,7 +71,6 @@
     {"name":"spr_tileset","order":24,"path":"sprites/spr_tileset/spr_tileset.yy",},
     {"name":"Sprite1","order":30,"path":"sprites/Sprite1/Sprite1.yy",},
     {"name":"Sprite2","order":31,"path":"sprites/Sprite2/Sprite2.yy",},
-    {"name":"Sprite26","order":25,"path":"sprites/Sprite26/Sprite26.yy",},
     {"name":"Sprite3","order":32,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"Sprite4","order":33,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Sprite7","order":34,"path":"sprites/Sprite7/Sprite7.yy",},

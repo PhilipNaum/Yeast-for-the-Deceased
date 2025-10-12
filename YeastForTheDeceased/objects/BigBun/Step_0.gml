@@ -8,3 +8,6 @@ else
 	attackTimer = attackWait;
 }
 
+if(TestPlayer.anchored_obj != self){
+	anchored=false;
+}

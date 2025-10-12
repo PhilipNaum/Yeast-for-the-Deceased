@@ -112,5 +112,9 @@ else
 	{
 		velocityY += gravityVal;
 	}
+	
+	if(TestPlayer.anchored_obj != self){
+		anchored = false;
+	}
 }
 

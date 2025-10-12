@@ -47,18 +47,12 @@ if(attached && anchored_obj != noone){
 	
 }
 if(!attached && abs(velocityX) >= .1 && abs(velocityY) >= .1){
-	if(velocityX<0){
-		velocityX += deceleration;
-	}
-	if(velocityX>0){
-		velocityX-= deceleration;
-	}
-	if(velocityY<0){
-		velocityY += deceleration;
-	}
-	if(velocityY>0){
-		velocityY -= deceleration
-	}
+	mag = sqrt(sqr(velocityX) + sqr(velocityY));
+	frictionX = -(velocityX / mag) * deceleration
+	frictionY = -(velocityY / mag) * deceleration;
+	
+	velocityX += frictionX;
+	velocityY += frictionY;
 }
 
 //change position

@@ -6,7 +6,7 @@ if(!parry){
 //Stop player
 velocityX = 0;
 velocityY = 0;
-acceleration = 0;
+acceleration = baseAcceleration;
 attached = false
 anchored_obj = noone;
 

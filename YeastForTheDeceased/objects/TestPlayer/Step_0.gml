@@ -23,14 +23,15 @@ if(attached && anchored_obj != noone){
 	appliedY /= magnitude;
 	
 	//add jerk to acceleration, with cap
-	acceleration = max(acceleration+jerk,max_accel);
+	acceleration = min(acceleration+jerk * (delta_time/deltaOffset)*10,max_accel);
+	
 	//multiply by acceleration
 	appliedX *= acceleration;
 	appliedY *= acceleration;
 	
 	//add to velocity
-	velocityX += appliedX;
-	velocityY += appliedY;
+	velocityX += appliedX * (delta_time/deltaOffset)*10;
+	velocityY += appliedY * (delta_time/deltaOffset)*10;
 	
 	//check if above max speed
 	velMagnitude = sqrt(sqr(velocityX)+sqr(velocityY));
@@ -56,8 +57,8 @@ if(anchored_obj == noone && abs(velocityX) >= 1 && abs(velocityY) >= 1){
 }
 
 //change position
-x+=velocityX;
-y+=velocityY;
+x+=velocityX * (delta_time/deltaOffset)*10;
+y+=velocityY * (delta_time/deltaOffset)*10;
 
 
 //Parry logic

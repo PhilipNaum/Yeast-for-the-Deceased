@@ -14,7 +14,7 @@ velocityX = 0;
 velocityY = 0;
 
 max_accel = 2;
-jerk = .05;
+jerk = .03;
 
 velMagnitude=0;
 
@@ -24,3 +24,18 @@ parryTimer = .5;
 
 failWait = 2
 parryFailTimer = failWait;
+
+// Sizing
+
+size = 90;
+width = size;
+height = size;
+
+function Resize(sizeChange)
+{
+	image_xscale = width / sprite_width;
+	image_yscale = height / sprite_height;
+}
+
+Resize(size);
+

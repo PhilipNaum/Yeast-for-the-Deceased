@@ -86,8 +86,8 @@ if(parryTimer<=0){
 
 //flip the image based on veloc
 if(velocityX < 0){
-	image_xscale = -1;
+	image_xscale = -abs(image_xscale);
 }
 if(velocityX > 0){
-	image_xscale = 1;
+	image_xscale = abs(image_xscale);
 }

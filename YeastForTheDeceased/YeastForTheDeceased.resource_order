@@ -29,6 +29,7 @@
     {"name":"MiddlePlatform","order":12,"path":"objects/MiddlePlatform/MiddlePlatform.yy",},
     {"name":"obj_chain","order":17,"path":"objects/obj_chain/obj_chain.yy",},
     {"name":"obj_fog","order":20,"path":"objects/obj_fog/obj_fog.yy",},
+    {"name":"obj_musicplayer","order":22,"path":"objects/obj_musicplayer/obj_musicplayer.yy",},
     {"name":"obj_slash_start","order":19,"path":"objects/obj_slash_start/obj_slash_start.yy",},
     {"name":"obj_win_animation","order":22,"path":"objects/obj_win_animation/obj_win_animation.yy",},
     {"name":"Object1","order":13,"path":"objects/Object1/Object1.yy",},

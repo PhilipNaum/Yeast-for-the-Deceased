@@ -38,6 +38,8 @@
     {"name":"WallS","order":7,"path":"objects/WallS/WallS.yy",},
     {"name":"WallW","order":8,"path":"objects/WallW/WallW.yy",},
     {"name":"Path2","order":1,"path":"paths/Path2/Path2.yy",},
+    {"name":"rm_controls","order":5,"path":"rooms/rm_controls/rm_controls.yy",},
+    {"name":"rm_credits","order":4,"path":"rooms/rm_credits/rm_credits.yy",},
     {"name":"rm_lose","order":2,"path":"rooms/rm_lose/rm_lose.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"rm_start","order":3,"path":"rooms/rm_start/rm_start.yy",},

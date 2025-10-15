@@ -23,9 +23,9 @@ deltaOffset = 1000000;
 
 // Parry Logic
 
-parryTimer = .5;
+parryTimer = .75;
 
-failWait = 2
+failWait = 1
 parryFailTimer = failWait;
 
 // Sizing
@@ -34,11 +34,17 @@ size = 60;
 width = size;
 height = size;
 
-function Resize(sizeChange)
+function Resize(sizeChange, spr)
 {
-	image_xscale = width / sprite_width;
-	image_yscale = height / sprite_height;
+	image_xscale = sizeChange / sprite_get_width(spr);
+	image_yscale = sizeChange / sprite_get_height(spr);
 }
 
-Resize(size);
+function ResizeWH(setWidth, setHeight, spr)
+{
+	image_xscale = setWidth / sprite_get_width(spr);
+	image_yscale = setHeight / sprite_get_height(spr);
+}
+
+Resize(size, spr_gr);
 

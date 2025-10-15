@@ -50,6 +50,7 @@
     {"name":"grim_reaper","order":2,"path":"sprites/grim_reaper/grim_reaper.yy",},
     {"name":"NorthWall","order":3,"path":"sprites/NorthWall/NorthWall.yy",},
     {"name":"SouthWall","order":4,"path":"sprites/SouthWall/SouthWall.yy",},
+    {"name":"spr_big_bun_jumping","order":31,"path":"sprites/spr_big_bun_jumping/spr_big_bun_jumping.yy",},
     {"name":"spr_box","order":5,"path":"sprites/spr_box/spr_box.yy",},
     {"name":"spr_bun_jump","order":29,"path":"sprites/spr_bun_jump/spr_bun_jump.yy",},
     {"name":"spr_bun_walking","order":24,"path":"sprites/spr_bun_walking/spr_bun_walking.yy",},

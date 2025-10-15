@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bread",
-    "path":"sprites/bread/bread.yy",
+    "name":"spr_big_bun_jumping",
+    "path":"sprites/spr_big_bun_jumping/spr_big_bun_jumping.yy",
   },
   "spriteMaskId":null,
   "visible":true,

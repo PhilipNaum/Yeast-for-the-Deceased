@@ -46,6 +46,7 @@
     {"id":{"name":"EnemyManager","path":"objects/EnemyManager/EnemyManager.yy",},},
     {"id":{"name":"MiddlePlatform","path":"objects/MiddlePlatform/MiddlePlatform.yy",},},
     {"id":{"name":"obj_chain","path":"objects/obj_chain/obj_chain.yy",},},
+    {"id":{"name":"obj_slash_start","path":"objects/obj_slash_start/obj_slash_start.yy",},},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
     {"id":{"name":"RadiusAttack","path":"objects/RadiusAttack/RadiusAttack.yy",},},
     {"id":{"name":"Reset","path":"objects/Reset/Reset.yy",},},
@@ -102,10 +103,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
-    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

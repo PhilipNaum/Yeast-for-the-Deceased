@@ -10,6 +10,10 @@ else if(position_meeting(mouse_x,mouse_y,self)){
 if(rolling){
 	draw_sprite_ext(spr_rolling_bun, image_index, x, y,image_xscale,image_yscale,0,c_white,100);
 }
+else if (jumping)
+{
+	draw_sprite_ext(spr_bun_jump, image_index, x, y,image_xscale,image_yscale,0,c_white,100);
+}
 else
 {
 	draw_sprite_ext(spr_bun_walking, image_index, x, y,image_xscale,image_yscale,0,c_white,100);

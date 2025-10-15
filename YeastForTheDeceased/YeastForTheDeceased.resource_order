@@ -49,6 +49,7 @@
     {"name":"NorthWall","order":4,"path":"sprites/NorthWall/NorthWall.yy",},
     {"name":"SouthWall","order":5,"path":"sprites/SouthWall/SouthWall.yy",},
     {"name":"spr_box","order":6,"path":"sprites/spr_box/spr_box.yy",},
+    {"name":"spr_bun_jump","order":43,"path":"sprites/spr_bun_jump/spr_bun_jump.yy",},
     {"name":"spr_bun_walking","order":37,"path":"sprites/spr_bun_walking/spr_bun_walking.yy",},
     {"name":"spr_button_border","order":25,"path":"sprites/spr_button_border/spr_button_border.yy",},
     {"name":"spr_button_heavy","order":1,"path":"sprites/spr_button_heavy/spr_button_heavy.yy",},

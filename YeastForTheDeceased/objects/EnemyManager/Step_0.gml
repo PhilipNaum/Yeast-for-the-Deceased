@@ -3,5 +3,5 @@ if(levelTimer<=0){
 	room_goto(rm_lose)
 }
 else if(enemyCount<=0 && bigBunNum <= 0){
-	room_goto(rm_menu)
+	room_goto(rm_win)
 }

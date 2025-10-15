@@ -1,5 +1,6 @@
+layer_set_visible("Credits",false)
+layer_set_visible("Controls",false);
+layer_set_visible("Title",false);
+layer_set_visible("Win",false)
 
-var uiLayerId2 = layer_get_id("UILayer_2");
-layer_set_visible(uiLayerId2,true);
-var uiLayerId1 = layer_get_id("UILayer_1");
-layer_set_visible(uiLayerId1,false);
+layer_set_visible("Lose",true);

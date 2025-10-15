@@ -22,8 +22,6 @@ if(attached && anchored_obj != noone){
 	appliedX /= magnitude;
 	appliedY /= magnitude;
 	
-	//add jerk to acceleration, with cap
-	acceleration = min(acceleration+jerk * (delta_time/deltaOffset)*10,max_accel);
 	
 	//multiply by acceleration
 	appliedX *= acceleration;
@@ -35,15 +33,15 @@ if(attached && anchored_obj != noone){
 	
 	//check if above max speed
 	velMagnitude = sqrt(sqr(velocityX)+sqr(velocityY));
-	if(velMagnitude > max_speed){
+	if(velMagnitude > curVelocityMax){
 		
 		//normalize velocity
 		velocityX/=velMagnitude;
 		
 		velocityY/=velMagnitude;
 		//multiply by max speed
-		velocityX*=max_speed;
-		velocityY*=max_speed;
+		velocityX*=curVelocityMax;
+		velocityY*=curVelocityMax;
 	}
 	
 }

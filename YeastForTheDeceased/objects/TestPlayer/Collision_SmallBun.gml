@@ -1,5 +1,7 @@
 if(parry){
 	successful_parry = true
+	curVelocityMax = min(curVelocityMax+5, max_speed);
+	acceleration = min(acceleration+3, max_accel);
 }
 else if (other.rolling)
 {
@@ -7,6 +9,7 @@ else if (other.rolling)
 	velocityX = 0;
 	velocityY = 0;
 	acceleration = baseAcceleration;
+	curVelocityMax = 5;
 	attached = false
 	anchored_obj = noone;
 

@@ -62,6 +62,7 @@
     {"name":"spr_outline","order":41,"path":"sprites/spr_outline/spr_outline.yy",},
     {"name":"spr_rolling_bun","order":36,"path":"sprites/spr_rolling_bun/spr_rolling_bun.yy",},
     {"name":"spr_scythe_cursor","order":20,"path":"sprites/spr_scythe_cursor/spr_scythe_cursor.yy",},
+    {"name":"spr_scythe_effect_2","order":44,"path":"sprites/spr_scythe_effect_2/spr_scythe_effect_2.yy",},
     {"name":"spr_scythe_effect","order":42,"path":"sprites/spr_scythe_effect/spr_scythe_effect.yy",},
     {"name":"spr_shadow","order":21,"path":"sprites/spr_shadow/spr_shadow.yy",},
     {"name":"spr_slash","order":22,"path":"sprites/spr_slash/spr_slash.yy",},

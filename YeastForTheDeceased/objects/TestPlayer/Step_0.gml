@@ -92,7 +92,7 @@ if(parryTimer<=0){
 	}
 	else
 	{
-		parryTimer=.5;
+		parryTimer = parryWait;
 		
 		sprite_index = spr_gr;
 		Resize(size, spr_gr);

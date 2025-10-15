@@ -85,6 +85,7 @@
     {"id":{"name":"spr_outline","path":"sprites/spr_outline/spr_outline.yy",},},
     {"id":{"name":"spr_rolling_bun","path":"sprites/spr_rolling_bun/spr_rolling_bun.yy",},},
     {"id":{"name":"spr_scythe_cursor","path":"sprites/spr_scythe_cursor/spr_scythe_cursor.yy",},},
+    {"id":{"name":"spr_scythe_effect_2","path":"sprites/spr_scythe_effect_2/spr_scythe_effect_2.yy",},},
     {"id":{"name":"spr_scythe_effect","path":"sprites/spr_scythe_effect/spr_scythe_effect.yy",},},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},},
     {"id":{"name":"spr_slash","path":"sprites/spr_slash/spr_slash.yy",},},

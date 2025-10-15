@@ -1,9 +1,9 @@
 anchored_obj = noone;
 
-baseAcceleration = 2;
+baseAcceleration = 3;
 acceleration = baseAcceleration;
 deceleration = .1;
-max_speed = 28;
+max_speed = 26;
 
 wallDeceleration = -1;
 
@@ -15,15 +15,15 @@ velocityX = 0;
 velocityY = 0;
 
 max_accel = 15;
-jerk = .15;
+jerk = .2;
 
 velMagnitude=0;
 
 deltaOffset = 1000000;
 
 // Parry Logic
-
-parryTimer = .75;
+parryWait = .7
+parryTimer = parryWait;
 
 failWait = 1
 parryFailTimer = failWait;

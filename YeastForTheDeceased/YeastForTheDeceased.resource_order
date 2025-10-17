@@ -30,6 +30,7 @@
     {"name":"obj_chain","order":17,"path":"objects/obj_chain/obj_chain.yy",},
     {"name":"obj_fader","order":23,"path":"objects/obj_fader/obj_fader.yy",},
     {"name":"obj_fog","order":20,"path":"objects/obj_fog/obj_fog.yy",},
+    {"name":"obj_logo","order":24,"path":"objects/obj_logo/obj_logo.yy",},
     {"name":"obj_musicplayer","order":22,"path":"objects/obj_musicplayer/obj_musicplayer.yy",},
     {"name":"obj_slash_start","order":19,"path":"objects/obj_slash_start/obj_slash_start.yy",},
     {"name":"obj_win_animation","order":22,"path":"objects/obj_win_animation/obj_win_animation.yy",},

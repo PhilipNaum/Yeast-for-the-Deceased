@@ -50,6 +50,7 @@
     {"id":{"name":"obj_chain","path":"objects/obj_chain/obj_chain.yy",},},
     {"id":{"name":"obj_fader","path":"objects/obj_fader/obj_fader.yy",},},
     {"id":{"name":"obj_fog","path":"objects/obj_fog/obj_fog.yy",},},
+    {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},},
     {"id":{"name":"obj_musicplayer","path":"objects/obj_musicplayer/obj_musicplayer.yy",},},
     {"id":{"name":"obj_slash_start","path":"objects/obj_slash_start/obj_slash_start.yy",},},
     {"id":{"name":"obj_win_animation","path":"objects/obj_win_animation/obj_win_animation.yy",},},

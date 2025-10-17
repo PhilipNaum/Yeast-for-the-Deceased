@@ -6,5 +6,6 @@ layer_set_visible("Exit",false);
 
 layer_set_visible("Title",true)
 layer_set_visible("PressSpace",true)
+layer_set_visible("SlashEffect",true)
 
 global.earlyArt = false;

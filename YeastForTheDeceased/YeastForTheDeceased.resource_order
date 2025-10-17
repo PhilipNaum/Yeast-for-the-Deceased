@@ -70,6 +70,9 @@
     {"name":"spr_gr_parry_fail","order":26,"path":"sprites/spr_gr_parry_fail/spr_gr_parry_fail.yy",},
     {"name":"spr_gr_parry","order":25,"path":"sprites/spr_gr_parry/spr_gr_parry.yy",},
     {"name":"spr_gr","order":22,"path":"sprites/spr_gr/spr_gr.yy",},
+    {"name":"spr_grFinal_parry_fail","order":36,"path":"sprites/spr_grFinal_parry_fail/spr_grFinal_parry_fail.yy",},
+    {"name":"spr_grFinal_parry","order":35,"path":"sprites/spr_grFinal_parry/spr_grFinal_parry.yy",},
+    {"name":"spr_grFinal","order":37,"path":"sprites/spr_grFinal/spr_grFinal.yy",},
     {"name":"spr_grparry","order":6,"path":"sprites/spr_grparry/spr_grparry.yy",},
     {"name":"spr_outline","order":27,"path":"sprites/spr_outline/spr_outline.yy",},
     {"name":"spr_rolling_bun","order":23,"path":"sprites/spr_rolling_bun/spr_rolling_bun.yy",},
@@ -87,6 +90,8 @@
     {"name":"Sprite4","order":20,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Sprite7","order":21,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"WestWall","order":14,"path":"sprites/WestWall/WestWall.yy",},
+    {"name":"YFTDlogo","order":38,"path":"sprites/YFTDlogo/YFTDlogo.yy",},
+    {"name":"YFTDlogo2","order":39,"path":"sprites/YFTDlogo2/YFTDlogo2.yy",},
     {"name":"TileSet1","order":13,"path":"tilesets/TileSet1/TileSet1.yy",},
   ],
 }

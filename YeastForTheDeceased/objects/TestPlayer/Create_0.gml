@@ -52,5 +52,5 @@ if (global.earlyArt)
 }
 else
 {
-	Resize(size, spr_gr);
+	ResizeWH(size,size+10, spr_grFinal);
 }

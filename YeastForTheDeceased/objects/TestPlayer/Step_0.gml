@@ -85,8 +85,8 @@ if(parryTimer<=0){
 		}
 		else
 		{
-			sprite_index = spr_gr_parry_fail;
-			ResizeWH(size+15, size, spr_gr_parry_fail);
+			sprite_index = spr_grFinal_parry_fail;
+			ResizeWH(size+20, size+15, spr_grFinal_parry_fail);
 		}
 		
 		
@@ -109,8 +109,8 @@ if(parryTimer<=0){
 		}
 		else
 		{
-			sprite_index = spr_gr;
-			Resize(size, spr_gr);
+			sprite_index = spr_grFinal;
+			ResizeWH(size, size+10,spr_grFinal);
 		}
 		
 		successful_parry = false;

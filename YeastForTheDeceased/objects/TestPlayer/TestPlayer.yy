@@ -51,8 +51,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gr",
-    "path":"sprites/spr_gr/spr_gr.yy",
+    "name":"spr_grFinal",
+    "path":"sprites/spr_grFinal/spr_grFinal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

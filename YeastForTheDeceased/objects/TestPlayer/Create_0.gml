@@ -48,9 +48,11 @@ function ResizeWH(setWidth, setHeight, spr)
 
 if (global.earlyArt)
 {
+	sprite_index = spr_gr;
 	Resize(size, spr_gr);
 }
 else
 {
-	ResizeWH(size,size+10, spr_grFinal);
+	sprite_index = spr_grFinal
+	ResizeWH(size,size+20, spr_grFinal);
 }

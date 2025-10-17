@@ -1,6 +1,4 @@
 if(attached && anchored_obj != noone){
-	
-	
 	goToX = anchored_obj.x;
 	goToY = anchored_obj.y;
 	
@@ -110,7 +108,7 @@ if(parryTimer<=0){
 		else
 		{
 			sprite_index = spr_grFinal;
-			ResizeWH(size, size+10,spr_grFinal);
+			ResizeWH(size, size+20,spr_grFinal);
 		}
 		
 		successful_parry = false;

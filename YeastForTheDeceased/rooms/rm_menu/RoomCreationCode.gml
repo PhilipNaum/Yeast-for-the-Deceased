@@ -6,4 +6,4 @@ layer_set_visible("PressSpace",false)
 layer_set_visible("Exit",false);
 layer_set_visible("SlashEffect",false)
 
-layer_set_visible("Title",true)
+layer_set_visible("Title",false)

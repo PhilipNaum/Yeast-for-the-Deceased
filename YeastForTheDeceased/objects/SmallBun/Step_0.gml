@@ -81,10 +81,19 @@ else
 		if (rollTimer < 0) 
 		{
 			rolling = true;
-		
-			sprite_index = spr_rolling_bun;
-			image_xscale = width / sprite_get_width(spr_rolling_bun);
-			image_yscale = height / sprite_get_height(spr_rolling_bun);
+			
+			if (global.earlyArt)
+			{
+				sprite_index = spr_rolling_bun;
+				image_xscale = width / sprite_get_width(spr_rolling_bun);
+				image_yscale = height / sprite_get_height(spr_rolling_bun);
+			}
+			else
+			{
+				sprite_index = spr_rolling_bun;
+				image_xscale = width / sprite_get_width(spr_rolling_bun);
+				image_yscale = height / sprite_get_height(spr_rolling_bun);
+			}
 		
 			tarPlatform = irandom_range(1, 3);
 		

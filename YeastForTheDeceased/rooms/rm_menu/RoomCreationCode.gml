@@ -3,5 +3,6 @@ layer_set_visible("Controls",false)
 layer_set_visible("Lose",false)
 layer_set_visible("Win",false)
 layer_set_visible("PressSpace",false)
+layer_set_visible("Exit",false);
 
 layer_set_visible("Title",true)

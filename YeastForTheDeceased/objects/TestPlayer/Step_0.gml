@@ -78,8 +78,16 @@ if(parryTimer<=0){
 	//if not, then turn on the fail timer
 	if(!successful_parry)
 	{
-		sprite_index = spr_gr_parry_fail;
-		ResizeWH(size+15, size, spr_gr_parry_fail);
+		if (global.earlyArt)
+		{
+			sprite_index = spr_gr_parry_fail;
+			ResizeWH(size+15, size, spr_gr_parry_fail);
+		}
+		else
+		{
+			sprite_index = spr_gr_parry_fail;
+			ResizeWH(size+15, size, spr_gr_parry_fail);
+		}
 		
 		
 		parryFailTimer-=delta_time/1000000;
@@ -94,8 +102,16 @@ if(parryTimer<=0){
 	{
 		parryTimer = parryWait;
 		
-		sprite_index = spr_gr;
-		Resize(size, spr_gr);
+		if (global.earlyArt)
+		{
+			sprite_index = spr_gr;
+			Resize(size, spr_gr);
+		}
+		else
+		{
+			sprite_index = spr_gr;
+			Resize(size, spr_gr);
+		}
 		
 		successful_parry = false;
 	}

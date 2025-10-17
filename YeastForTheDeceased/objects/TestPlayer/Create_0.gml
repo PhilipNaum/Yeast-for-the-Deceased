@@ -46,5 +46,11 @@ function ResizeWH(setWidth, setHeight, spr)
 	image_yscale = setHeight / sprite_get_height(spr);
 }
 
-Resize(size, spr_gr);
-
+if (global.earlyArt)
+{
+	Resize(size, spr_gr);
+}
+else
+{
+	Resize(size, spr_gr);
+}
